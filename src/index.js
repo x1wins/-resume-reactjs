@@ -8,6 +8,11 @@ import '../node_modules/startbootstrap-resume/css/resume.css';
 import Header from './Header';
 import Content from './Content';
 import Footer from './Footer';
+import '../node_modules/startbootstrap-resume/vendor/jquery/jquery.min.js';
+import '../node_modules/startbootstrap-resume/vendor/bootstrap/js/bootstrap.bundle.min.js';
+import '../node_modules/startbootstrap-resume/vendor/jquery-easing/jquery.easing.min.js';
+import '../node_modules/startbootstrap-resume/js/resume.min.js';
+
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<Header />, document.getElementById('header'));
