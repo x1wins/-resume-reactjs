@@ -24,13 +24,19 @@ class App extends Component {
 
     componentDidMount() {
         const url = (process.env.NODE_ENV === 'development')
-            ? "http://localhost:3001/homes"
+            ? "http://localhost:3000/homes/1.json"
             : 'https://<your-app>.herokuapp.com/homes/';
 
-        fetch(url)
-            .then(res => res.json())
+        fetch(url, {
+            method: 'GET',
+            mode: 'CORS',
+            headers: {
+            'X-API-Key': 'Q82EAnyHuygomXxK2mNDfcHkvOQ17EmsBPvOc1eq'
+            }
+        }).then(res => res.json())
             .then(
                 (result) => {
+                    console.log('parsed json: ', result)
                     this.setState({
                         isLoaded: true,
                         home: result

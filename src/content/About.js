@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
 
 class About extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            about: {
+                // email: this.props.about.email
+            }
+        };
+    }
+
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
@@ -9,7 +18,7 @@ class About extends Component {
                         <span className="text-primary">Taylor</span>
                     </h1>
                     <div className="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        <a href="mailto:name@email.com">x1wins@naver.com</a>
                     </div>
                     <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis
                         for high level overviews. Iterative approaches to corporate strategy foster collaborative

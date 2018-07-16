@@ -11,7 +11,7 @@ class Content extends Component {
         super(props);
         this.state = {
             home: {
-                about: props.home.about
+                about: this.props.home.about
             }
         };
     }
