@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
 
 class Education extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            educations: []
+        }
+    }
+
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="education">

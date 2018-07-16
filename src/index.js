@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/startbootstrap-resume/vendor/bootstrap/css/bootstrap.min.css';
 import '../node_modules/startbootstrap-resume/vendor/font-awesome/css/font-awesome.min.css';
@@ -10,7 +10,25 @@ import Content from './Content';
 import Footer from './Footer';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Header />, document.getElementById('header'));
-ReactDOM.render(<Content />, document.getElementById('content'));
-ReactDOM.render(<Footer />, document.getElementById('footer'));
+class App extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            home: null
+        };
+    }
+
+    render() {
+        return (
+            <div>
+                <Header />
+                <Content />
+                <Footer />
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
