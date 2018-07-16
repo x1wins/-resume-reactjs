@@ -23,7 +23,11 @@ class App extends Component {
     }
 
     componentDidMount() {
-        fetch("https://localhost:3001/homes")
+        const url = (process.env.NODE_ENV === 'development')
+            ? "http://localhost:3001/homes"
+            : 'https://<your-app>.herokuapp.com/homes/';
+
+        fetch(url)
             .then(res => res.json())
             .then(
                 (result) => {
