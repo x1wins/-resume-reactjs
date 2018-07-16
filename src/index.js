@@ -11,11 +11,12 @@ import Footer from './Footer';
 import registerServiceWorker from './registerServiceWorker';
 
 class App extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
-            home: null
+            home: {
+                about: null
+            }
         };
     }
 
@@ -23,7 +24,7 @@ class App extends Component {
         return (
             <div>
                 <Header />
-                <Content />
+                <Content home={this.state.home} />
                 <Footer />
             </div>
         );

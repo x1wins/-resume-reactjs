@@ -7,10 +7,19 @@ import Interests from "./content/Interests";
 import Awards from "./content/Awards";
 
 class Content extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            home: {
+                about: props.home.about
+            }
+        };
+    }
+
     render() {
         return (
             <div className="container-fluid p-0">
-                <About/>
+                <About about={this.state.about}/>
                 <Experiance/>
                 <Education/>
                 <Skills/>
