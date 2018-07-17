@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c6d0c2-e773-4f31-a535-732e730f1368" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/Awards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Awards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/Interests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Interests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Skills.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,20 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Awards.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Awards.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/content/Awards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Content.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Content.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="242">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -69,8 +65,8 @@
       <file leaf-file-name="Skills.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/content/Skills.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="158">
+              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -78,8 +74,8 @@
       <file leaf-file-name="Experiance.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/content/Experiance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="236">
+              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -143,12 +139,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/content/About.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/content/Skills.js" />
         <option value="$PROJECT_DIR$/src/content/Experiance.js" />
         <option value="$PROJECT_DIR$/src/content/Education.js" />
-        <option value="$PROJECT_DIR$/src/content/Awards.js" />
         <option value="$PROJECT_DIR$/src/content/Interests.js" />
         <option value="$PROJECT_DIR$/src/Content.js" />
+        <option value="$PROJECT_DIR$/src/content/Skills.js" />
+        <option value="$PROJECT_DIR$/src/content/Awards.js" />
       </list>
     </option>
   </component>
@@ -293,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17511000" />
+    <option name="totallyTimeSpent" value="17762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
@@ -541,24 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/content/Skills.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/content/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/content/Awards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -571,8 +553,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/content/Experiance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="236">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/content/Skills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -585,11 +574,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="242">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/content/Awards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
