@@ -10,7 +10,7 @@ class Content extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            home: this.props.home
+            home: props.home
         };
     }
 
@@ -18,7 +18,7 @@ class Content extends Component {
         return (
             <div className="container-fluid p-0">
                 <About about={this.state.home.about}/>
-                <Experiance/>
+                <Experiance experiences={this.state.home.experiences}/>
                 <Education/>
                 <Skills/>
                 <Interests/>

@@ -30,7 +30,6 @@ class App extends Component {
             .then(
                 (result) => {
                     console.log('parsed json: ', result)
-                    console.log('result.about.email: ', result.about.email)
                     this.setState({
                         isLoaded: true,
                         home: result
