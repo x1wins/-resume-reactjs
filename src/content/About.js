@@ -4,26 +4,21 @@ class About extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            about: {
-                email: this.props.about.email
-            }
+            about: this.props.about
         };
-        console.log(props.about);
     }
 
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
                 <div className="my-auto">
-                    <h1 className="mb-0">Clarence
-                        <span className="text-primary">Taylor</span>
+                    <h1 className="mb-0">
+                        <span className="text-primary">{this.state.about.name}</span>
                     </h1>
-                    <div className="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+                    <div className="subheading mb-5">{this.state.about.address}
                         <a href="mailto:name@email.com">{this.state.about.email}</a>
                     </div>
-                    <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis
-                        for high level overviews. Iterative approaches to corporate strategy foster collaborative
-                        thinking to further the overall value proposition.</p>
+                    <p className="mb-5">{this.state.about.content}</p>
                     <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
                             <a href="#">

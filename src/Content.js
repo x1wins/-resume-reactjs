@@ -10,13 +10,8 @@ class Content extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            home: {
-                about: {
-                    email: this.props.home.about.email
-                }
-            }
+            home: this.props.home
         };
-        console.log("Content :" + this.props.home.about.email);
     }
 
     render() {

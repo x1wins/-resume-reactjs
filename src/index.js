@@ -16,11 +16,7 @@ class App extends Component {
         this.state = {
             error: null,
             isLoaded: false,
-            home: {
-                about: {
-                    email: null
-                }
-            }
+            home: null
         };
     }
 
@@ -37,11 +33,7 @@ class App extends Component {
                     console.log('result.about.email: ', result.about.email)
                     this.setState({
                         isLoaded: true,
-                        home: {
-                            about: {
-                                email: result.about.email
-                            }
-                        }
+                        home: result
                     });
                 },
                 // Note: it's important to handle errors here
