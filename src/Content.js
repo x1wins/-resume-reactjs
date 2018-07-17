@@ -19,10 +19,10 @@ class Content extends Component {
             <div className="container-fluid p-0">
                 <About about={this.state.home.about}/>
                 <Experiance experiences={this.state.home.experiences}/>
-                <Education/>
-                <Skills/>
-                <Interests/>
-                <Awards/>
+                <Education educations={this.state.home.educations}/>
+                <Skills skills={this.state.home.skills}/>
+                <Interests interest={this.state.home.ineterest}/>
+                <Awards awards={this.state.home.awards}/>
             </div>
         );
     }

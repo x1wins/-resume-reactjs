@@ -1,6 +1,13 @@
 import React, {Component} from 'react';
 
 class Skills extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            skills: this.props.skills
+        };
+    }
+
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
