@@ -11,15 +11,18 @@ class Content extends Component {
         super(props);
         this.state = {
             home: {
-                about: this.props.home.about
+                about: {
+                    email: this.props.home.about.email
+                }
             }
         };
+        console.log("Content :" + this.props.home.about.email);
     }
 
     render() {
         return (
             <div className="container-fluid p-0">
-                <About about={this.state.about}/>
+                <About about={this.state.home.about}/>
                 <Experiance/>
                 <Education/>
                 <Skills/>

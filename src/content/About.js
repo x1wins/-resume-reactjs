@@ -5,9 +5,10 @@ class About extends Component {
         super(props);
         this.state = {
             about: {
-                // email: this.props.about.email
+                email: this.props.about.email
             }
         };
+        console.log(props.about);
     }
 
     render() {
@@ -18,7 +19,7 @@ class About extends Component {
                         <span className="text-primary">Taylor</span>
                     </h1>
                     <div className="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">x1wins@naver.com</a>
+                        <a href="mailto:name@email.com">{this.state.about.email}</a>
                     </div>
                     <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis
                         for high level overviews. Iterative approaches to corporate strategy foster collaborative

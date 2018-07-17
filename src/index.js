@@ -17,7 +17,9 @@ class App extends Component {
             error: null,
             isLoaded: false,
             home: {
-                about: null
+                about: {
+                    email: null
+                }
             }
         };
     }
@@ -27,19 +29,19 @@ class App extends Component {
             ? "http://localhost:3000/homes/1.json"
             : 'https://<your-app>.herokuapp.com/homes/';
 
-        fetch(url, {
-            method: 'GET',
-            mode: 'CORS',
-            headers: {
-            'X-API-Key': 'Q82EAnyHuygomXxK2mNDfcHkvOQ17EmsBPvOc1eq'
-            }
-        }).then(res => res.json())
+        fetch(url)
+            .then(res => res.json())
             .then(
                 (result) => {
                     console.log('parsed json: ', result)
+                    console.log('result.about.email: ', result.about.email)
                     this.setState({
                         isLoaded: true,
-                        home: result
+                        home: {
+                            about: {
+                                email: result.about.email
+                            }
+                        }
                     });
                 },
                 // Note: it's important to handle errors here
@@ -55,6 +57,11 @@ class App extends Component {
     }
 
     render() {
+
+        if (!this.state.isLoaded) {
+            return <p>Loading ...</p>;
+        }
+
         return (
             <div>
                 <Header />
