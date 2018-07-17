@@ -18,7 +18,7 @@ class Education extends Component {
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">{education.school}</h3>
                                 <div className="subheading mb-3">{education.degree}</div>
-                                <div>{education.content}</div>
+                                <p>{education.content}</p>
                             </div>
                             <div className="resume-date text-md-right">
                                 <span className="text-primary">{education.period}</span>
